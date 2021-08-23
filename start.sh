@@ -1,0 +1,1 @@
+docker run -v $(pwd):/projetos/ --net host -it mcr.microsoft.com/dotnet/runtime:3.1 dotnet /projetos/Hosts/bin/Debug/netcoreapp3.1/Hosts.dll
